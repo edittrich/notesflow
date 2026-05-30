@@ -14,12 +14,22 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { ThemeToggle } from '@/components/ThemeToggle';
 import { LanguageSwitcher } from '@/components/LanguageSwitcher';
 
-const loginSchema = z.object({
-  email: z.string().email('Please enter a valid email address.'),
-  password: z.string().min(6, 'Password must be at least 6 characters.'),
-});
+const loginSchema = (t: (key: string) => string) =>
+  z.object({
+    email: z
+      .string()
+      .min(1, t('validationEmailRequired'))
+      .email(t('validationEmailInvalid')),
+    password: z
+      .string()
+      .min(1, t('validationPasswordRequired'))
+      .min(6, t('validationPasswordTooShort')),
+  });
 
-type LoginFormValues = z.infer<typeof loginSchema>;
+type LoginFormValues = {
+  email: string;
+  password: string;
+};
 
 export default function LoginPage() {
   const t = useTranslations('Auth');
@@ -32,7 +42,7 @@ export default function LoginPage() {
     handleSubmit,
     formState: { errors },
   } = useForm<LoginFormValues>({
-    resolver: zodResolver(loginSchema),
+    resolver: zodResolver(loginSchema(t as unknown as (key: string) => string)),
     defaultValues: {
       email: '',
       password: '',

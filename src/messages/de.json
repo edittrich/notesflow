@@ -23,7 +23,12 @@
     "signInLink": "Anmelden",
     "errorGeneric": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.",
     "errorInvalidCredentials": "Ungültige E-Mail-Adresse oder Passwort.",
-    "errorEmailExists": "Ein Konto mit dieser E-Mail existiert bereits."
+    "errorEmailExists": "Ein Konto mit dieser E-Mail existiert bereits.",
+    "successVerification": "Registrierung erfolgreich! Bitte überprüfen Sie Ihre E-Mails, um Ihr Konto zu bestätigen.",
+    "validationEmailRequired": "E-Mail-Adresse ist erforderlich.",
+    "validationEmailInvalid": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+    "validationPasswordRequired": "Passwort ist erforderlich.",
+    "validationPasswordTooShort": "Passwort muss mindestens 6 Zeichen lang sein."
   },
   "Dashboard": {
     "title": "Meine Notizen",

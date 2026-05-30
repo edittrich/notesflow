@@ -23,7 +23,12 @@
     "signInLink": "Sign in",
     "errorGeneric": "Something went wrong. Please try again.",
     "errorInvalidCredentials": "Invalid email or password.",
-    "errorEmailExists": "An account with this email already exists."
+    "errorEmailExists": "An account with this email already exists.",
+    "successVerification": "Registration successful! Please check your email to verify your account.",
+    "validationEmailRequired": "Email is required.",
+    "validationEmailInvalid": "Please enter a valid email address.",
+    "validationPasswordRequired": "Password is required.",
+    "validationPasswordTooShort": "Password must be at least 6 characters."
   },
   "Dashboard": {
     "title": "My Notes",
