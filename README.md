@@ -276,3 +276,12 @@ If you hit trigger conflicts:
 ### next-intl "locale not found" error
 If you experience routing loop errors:
 *   **Fix**: Ensure your URL has the locale prefix (e.g., `/en/dashboard`). Check that `src/middleware.ts` is running and not matching static assets or API endpoints.
+
+---
+
+## Companion Android Application
+
+NotesFlow has a native companion Android application written in Kotlin utilizing Jetpack Compose. It is located in the companion workspace:
+*   [notesflow-android](file:///home/edittrich/Documents/workspaces/git/notesflow-android)
+
+This mobile app integrates with both your local development stack (`http://10.0.2.2:3000`) and your production Vercel + Supabase backend. Check the Android project [README.md](file:///home/edittrich/Documents/workspaces/git/notesflow-android/README.md) for full instructions on building and running variants.
