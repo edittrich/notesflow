@@ -1,0 +1,76 @@
+{
+  "Navbar": {
+    "title": "NotesFlow",
+    "signOut": "Abmelden",
+    "dashboard": "Dashboard"
+  },
+  "Auth": {
+    "signInTitle": "Bei NotesFlow anmelden",
+    "signInDesc": "Geben Sie Ihre E-Mail und Ihr Passwort ein, um auf Ihre Notizen zuzugreifen.",
+    "signUpTitle": "Konto erstellen",
+    "signUpDesc": "Registrieren Sie sich, um Ihre Gedanken zu ordnen.",
+    "emailLabel": "E-Mail-Adresse",
+    "passwordLabel": "Passwort",
+    "emailPlaceholder": "name@beispiel.de",
+    "passwordPlaceholder": "••••••••",
+    "signInButton": "Anmelden",
+    "signUpButton": "Registrieren",
+    "signingIn": "Anmeldung läuft...",
+    "signingUp": "Registrierung läuft...",
+    "noAccount": "Noch kein Konto?",
+    "haveAccount": "Bereits ein Konto?",
+    "signUpLink": "Registrieren",
+    "signInLink": "Anmelden",
+    "errorGeneric": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.",
+    "errorInvalidCredentials": "Ungültige E-Mail-Adresse oder Passwort.",
+    "errorEmailExists": "Ein Konto mit dieser E-Mail existiert bereits."
+  },
+  "Dashboard": {
+    "title": "Meine Notizen",
+    "searchPlaceholder": "Notizen suchen...",
+    "newNoteButton": "Neue Notiz",
+    "noNotesTitle": "Noch keine Notizen",
+    "noNotesDesc": "Erstellen Sie Ihre erste Notiz, um Ihre Gedanken zu ordnen.",
+    "loading": "Notizen werden geladen...",
+    "errorLoading": "Notizen konnten nicht geladen werden.",
+    "tryAgain": "Erneut versuchen"
+  },
+  "Sorting": {
+    "sortBy": "Sortieren nach",
+    "NEWEST_FIRST": "Neueste zuerst",
+    "OLDEST_FIRST": "Älteste zuerst",
+    "TITLE_AZ": "Titel A-Z",
+    "TITLE_ZA": "Titel Z-A"
+  },
+  "NoteCard": {
+    "created": "Erstellt",
+    "updated": "Aktualisiert",
+    "edit": "Bearbeiten",
+    "delete": "Löschen"
+  },
+  "NoteForm": {
+    "createTitle": "Notiz erstellen",
+    "createDesc": "Füllen Sie die Details aus, um eine neue Notiz zu erstellen.",
+    "editTitle": "Notiz bearbeiten",
+    "editDesc": "Ändern Sie die Details Ihrer Notiz.",
+    "fieldTitle": "Titel",
+    "fieldTitlePlaceholder": "Titel der Notiz eingeben...",
+    "fieldDescription": "Beschreibung",
+    "fieldDescriptionPlaceholder": "Schreiben Sie hier den Inhalt Ihrer Notiz...",
+    "submitCreate": "Notiz erstellen",
+    "submitEdit": "Änderungen speichern",
+    "cancel": "Abbrechen",
+    "saving": "Speichern...",
+    "validationTitleRequired": "Titel ist erforderlich.",
+    "validationTitleMaxLength": "Titel darf maximal 120 Zeichen lang sein.",
+    "validationDescriptionRequired": "Beschreibung ist erforderlich.",
+    "validationDescriptionMaxLength": "Beschreibung darf maximal 5000 Zeichen lang sein."
+  },
+  "DeleteDialog": {
+    "title": "Notiz löschen",
+    "desc": "Sind Sie sicher, dass Sie diese Notiz löschen möchten? Diese Aktion kann nicht rückgängig gemacht werden.",
+    "cancel": "Abbrechen",
+    "confirm": "Löschen",
+    "deleting": "Löschen läuft..."
+  }
+}

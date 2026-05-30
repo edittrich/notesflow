@@ -1,0 +1,76 @@
+{
+  "Navbar": {
+    "title": "NotesFlow",
+    "signOut": "Sign Out",
+    "dashboard": "Dashboard"
+  },
+  "Auth": {
+    "signInTitle": "Sign In to NotesFlow",
+    "signInDesc": "Enter your email and password to access your notes.",
+    "signUpTitle": "Create an Account",
+    "signUpDesc": "Sign up to start organizing your thoughts.",
+    "emailLabel": "Email Address",
+    "passwordLabel": "Password",
+    "emailPlaceholder": "name@example.com",
+    "passwordPlaceholder": "••••••••",
+    "signInButton": "Sign In",
+    "signUpButton": "Sign Up",
+    "signingIn": "Signing In...",
+    "signingUp": "Signing Up...",
+    "noAccount": "Don't have an account?",
+    "haveAccount": "Already have an account?",
+    "signUpLink": "Sign up",
+    "signInLink": "Sign in",
+    "errorGeneric": "Something went wrong. Please try again.",
+    "errorInvalidCredentials": "Invalid email or password.",
+    "errorEmailExists": "An account with this email already exists."
+  },
+  "Dashboard": {
+    "title": "My Notes",
+    "searchPlaceholder": "Search notes...",
+    "newNoteButton": "New Note",
+    "noNotesTitle": "No notes yet",
+    "noNotesDesc": "Create your first note to start organizing your thoughts.",
+    "loading": "Loading notes...",
+    "errorLoading": "Failed to load notes.",
+    "tryAgain": "Try Again"
+  },
+  "Sorting": {
+    "sortBy": "Sort by",
+    "NEWEST_FIRST": "Newest First",
+    "OLDEST_FIRST": "Oldest First",
+    "TITLE_AZ": "Title A-Z",
+    "TITLE_ZA": "Title Z-A"
+  },
+  "NoteCard": {
+    "created": "Created",
+    "updated": "Updated",
+    "edit": "Edit",
+    "delete": "Delete"
+  },
+  "NoteForm": {
+    "createTitle": "Create Note",
+    "createDesc": "Fill in the details to create a new note.",
+    "editTitle": "Edit Note",
+    "editDesc": "Modify the details of your note.",
+    "fieldTitle": "Title",
+    "fieldTitlePlaceholder": "Enter note title...",
+    "fieldDescription": "Description",
+    "fieldDescriptionPlaceholder": "Write your note content here...",
+    "submitCreate": "Create Note",
+    "submitEdit": "Save Changes",
+    "cancel": "Cancel",
+    "saving": "Saving...",
+    "validationTitleRequired": "Title is required.",
+    "validationTitleMaxLength": "Title must be 120 characters or less.",
+    "validationDescriptionRequired": "Description is required.",
+    "validationDescriptionMaxLength": "Description must be 5000 characters or less."
+  },
+  "DeleteDialog": {
+    "title": "Delete Note",
+    "desc": "Are you sure you want to delete this note? This action cannot be undone.",
+    "cancel": "Cancel",
+    "confirm": "Delete",
+    "deleting": "Deleting..."
+  }
+}
