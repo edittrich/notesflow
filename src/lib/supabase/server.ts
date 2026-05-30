@@ -24,7 +24,7 @@ export async function createClient() {
         }
       );
     }
-  } catch (error) {
+  } catch {
     // headers() can throw when not running in request context
   }
 
