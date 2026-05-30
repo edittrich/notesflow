@@ -275,7 +275,7 @@ If you hit trigger conflicts:
 
 ### next-intl "locale not found" error
 If you experience routing loop errors:
-*   **Fix**: Ensure your URL has the locale prefix (e.g., `/en/dashboard`). Check that `src/middleware.ts` is running and not matching static assets or API endpoints.
+*   **Fix**: Ensure your URL has the locale prefix (e.g., `/en/dashboard`). Check that `src/proxy.ts` is running and not matching static assets or API endpoints.
 
 ---
 
